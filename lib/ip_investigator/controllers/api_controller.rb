@@ -40,7 +40,7 @@ module IpInvestigator
       }
 
       # invoke the API call request to fetch the response
-      _response = Unirest.get _query_url, headers: _headers
+      _response = HTTParty.get _query_url, headers: _headers
 
       # Endpoint error handling using HTTP status codes.
       if _response.code == 404

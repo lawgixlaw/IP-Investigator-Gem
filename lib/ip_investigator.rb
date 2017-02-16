@@ -1,7 +1,7 @@
 # This file was automatically generated for Expedited Addons by APIMATIC v2.0 ( https://apimatic.io ) on 06/03/2016
 require 'openssl'
 require 'json'
-require 'unirest'
+require 'httparty'
 
 # APIMATIC Helper Files
 require_relative 'ip_investigator/api_helper.rb'
